@@ -13,8 +13,14 @@
       "homepage": "http://heybigname.com/"
     }
   ],
+  "repositories": [
+    {
+      "url": "https://github.com/0777144/backup-manager.git",
+      "type": "git"
+    }
+  ],
   "require": {
-    "backup-manager/backup-manager": "^1.0",
+    "backup-manager/backup-manager": "data-only",
     "php": ">=5.5.0",
     "symfony/process": "^2.0||^3.0",
     "illuminate/support": "^4.0||^5.0",
