@@ -20,7 +20,7 @@
     }
   ],
   "require": {
-    "backup-manager/backup-manager": "data-only",
+    "backup-manager/backup-manager": "dev-data-only",
     "php": ">=5.5.0",
     "symfony/process": "^2.0||^3.0",
     "illuminate/support": "^4.0||^5.0",
